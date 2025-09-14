@@ -28,7 +28,7 @@ while True:
     s.send(ip.encode())
     print("Mac Address : ",s.recv(1024).decode())
 ```
-Clienr
+Client
 ```
 import socket
 s=socket.socket()
